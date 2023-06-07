@@ -291,31 +291,31 @@ p {
 }
 /* 5 */
 
-.form4{
+.form4 {
   width: 80%;
   text-align: center;
   margin: auto;
-  
 }
-.header1{
+.header1 {
   background-color: aliceblue;
   height: 80px;
 }
-.nav1{
+.nav1 {
   background-color: #6acafc;
   height: 70px;
   border-bottom: #2980b9 solid 10px;
-} .main1{
+}
+.main1 {
   background-color: aquamarine;
   border: white solid 15px;
   height: 500px;
 }
-.footer1{
+.footer1 {
   background-color: #2c3e50;
   height: 40px;
   text-align: right;
 }
-.container1{
+.container1 {
   border: solid black 1px;
 }
 /* .form4{
@@ -324,65 +324,88 @@ p {
   margin: auto;
   height: 600%;
 } */
-.form5{
-
+.form5 {
 }
-.header2{
+.header2 {
   background-color: rgb(184, 157, 4);
   height: 80px;
- 
-
 }
-.nav2{
-background-color: #5c4d0b;
+.nav2 {
+  background-color: #5c4d0b;
   height: 70px;
   border-bottom: #767734 solid 10px;
 }
-.main2{
-
+.main2 {
   border: white solid 15px;
   height: 500px;
   border: #f1a708 12px solid;
 }
-.footer2{
- background-color: #2c3e50;
+.footer2 {
+  background-color: #2c3e50;
   height: 40px;
   text-align: right;
 }
-.container2{
-  border: solid #f1a708 1px;
-  width: 80px;
-  
+/* 5 */
+
+.container2 {
+  border: solid black 2px;
 }
-.flex5{
+.flex5 {
   display: flex;
   height: 250px;
   background-color: rgb(218, 12, 12);
 }
-.zone1{
+.zone1 {
   width: 50%;
   height: 100%;
   background-color: #6acafc;
-
 }
-.zone2{
-width: 50%;
+.zone2 {
+  width: 50%;
   height: 100%;
- background-color: #4e390c;
+  background-color: #4e390c;
 }
-.zone3{
-width: 50%;
+.zone3 {
+  width: 50%;
   height: 100%;
   background-color: #fc6acb;
 }
-.zone4{
-width: 50%;
+.zone4 {
+  width: 50%;
   height: 100%;
- background-color: #6acafc;
+  background-color: #6acafc;
 }
 
-.flex6{
-display: flex;
+.flex6 {
+  display: flex;
   height: 230px;
- background-color: #4e390c;
+  background-color: #4e390c;
+  width: 80%;
+}
+.form5 {
+  width: 80%;
+  margin: auto;
+}
+/* 6 */
+
+.form6 {
+  width: 80%;
+  margin: auto;
+}
+.form6a {
+  display: flex;
+  height: 100px;
+}
+.form6b {
+  display: flex;
+  height: 300px;
+}
+.form6a1 {
+  height: 20%;
+}
+.form6a2 {
+  height: 40%;
+}
+.form6a3 {
+  height: 20%;
 }
