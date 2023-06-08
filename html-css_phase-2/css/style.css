@@ -409,3 +409,137 @@ p {
 .form6a3 {
   height: 20%;
 }
+/* ********************LIEN ET MENU************************* */
+
+.lien1{
+  display: flex;
+ 
+
+}
+.lien1 li {
+  list-style-type: none;
+  border-radius: 25px;
+  background-color:#2C3E50;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-family: oswald;
+  margin: 10px;
+  box-shadow: 0px 0px 3px 3px green;
+  
+}
+.lien1 li:hover {
+  background-color: #6acafc;
+
+}
+.lien1 li>a:hover{
+  font-size: 30px;
+}
+
+.lien1 a{
+text-decoration: none;
+color: white;
+}
+main h2{
+  text-align: left;
+  color: black;
+
+}
+.lien2{
+  display: block;
+  list-style-type: none;
+    margin-left: 20px;
+ 
+}
+.lien2 a{
+text-decoration: none;
+color: #2980b9;
+}
+.lien2 a:hover{
+  color: red;
+  
+}
+.margine p{
+  margin-left: 20px;
+}
+.margine a{
+  color: #2980b9;
+  text-decoration: none;
+
+}
+
+/* les menus */
+.lien3 li {
+  list-style-type: none;
+  border-radius: 2px 11px 2px 11px;
+
+  padding: 5px 10px;
+  font-size: 20px;
+  font-family: oswald;
+  margin: 10px;
+  box-shadow: 0px 0px 3px 3px rgba(238, 232, 232, 0.904);
+  
+}
+.lien3 li:hover {
+  background-color: #6acafc;
+
+}
+.lien3 li>a:hover{
+  font-size: 30px;
+}
+
+.lien3 a{
+text-decoration: none;
+color: rgb(212, 201, 201);
+}
+main h2{
+  text-align: left;
+  color: black;
+
+}
+
+/* lenus deroulant */
+/* les menus */
+.lien4 li {
+  list-style-type: none;
+  border-radius: 2px 11px 2px 11px;
+
+  padding: 5px 10px;
+  font-size: 20px;
+  font-family: oswald;
+  margin: 10px;
+  box-shadow: 0px 0px 3px 3px rgba(238, 232, 232, 0.904);
+  
+}
+.lien4 li:hover {
+  background-color: #6acafc;
+
+}
+.lien3a p{
+  padding-left: 40px;
+}
+.lien3 li>a:hover{
+  font-size: 30px;
+}
+.lien4a p{
+padding-left: 4%;
+}
+.lien4 a{
+text-decoration: none;
+color: rgb(212, 201, 201);
+
+
+}
+main h2{
+  text-align: left;
+  color: black;
+
+}
+.deroul1{
+  width: 80%;
+ 
+  background-color: #8457ec;
+  margin: auto;
+ 
+
+}
+
