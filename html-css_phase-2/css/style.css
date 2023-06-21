@@ -192,6 +192,8 @@ main {
   background: rgba(178, 178, 178, 0.3);
   width: 1000px;
   margin: 0 auto;
+
+  padding-bottom: 20px;
 }
 aside {
   height: 250px;
@@ -411,60 +413,52 @@ p {
 }
 /* ********************LIEN ET MENU************************* */
 
-.lien1{
+.lien1 {
   display: flex;
- 
-
 }
 .lien1 li {
   list-style-type: none;
   border-radius: 25px;
-  background-color:#2C3E50;
+  background-color: #2c3e50;
   padding: 5px 10px;
   font-size: 20px;
   font-family: oswald;
   margin: 10px;
   box-shadow: 0px 0px 3px 3px green;
-  
 }
 .lien1 li:hover {
   background-color: #6acafc;
-
 }
-.lien1 li>a:hover{
+.lien1 li > a:hover {
   font-size: 30px;
 }
 
-.lien1 a{
-text-decoration: none;
-color: white;
+.lien1 a {
+  text-decoration: none;
+  color: white;
 }
-main h2{
+main h2 {
   text-align: left;
   color: black;
-
 }
-.lien2{
+.lien2 {
   display: block;
   list-style-type: none;
-    margin-left: 20px;
- 
-}
-.lien2 a{
-text-decoration: none;
-color: #2980b9;
-}
-.lien2 a:hover{
-  color: red;
-  
-}
-.margine p{
   margin-left: 20px;
 }
-.margine a{
+.lien2 a {
+  text-decoration: none;
+  color: #2980b9;
+}
+.lien2 a:hover {
+  color: red;
+}
+.margine p {
+  margin-left: 20px;
+}
+.margine a {
   color: #2980b9;
   text-decoration: none;
-
 }
 
 /* les menus */
@@ -477,24 +471,21 @@ color: #2980b9;
   font-family: oswald;
   margin: 10px;
   box-shadow: 0px 0px 3px 3px rgba(238, 232, 232, 0.904);
-  
 }
 .lien3 li:hover {
   background-color: #6acafc;
-
 }
-.lien3 li>a:hover{
+.lien3 li > a:hover {
   font-size: 30px;
 }
 
-.lien3 a{
-text-decoration: none;
-color: rgb(212, 201, 201);
+.lien3 a {
+  text-decoration: none;
+  color: rgb(212, 201, 201);
 }
-main h2{
+main h2 {
   text-align: left;
   color: black;
-
 }
 
 /* lenus deroulant */
@@ -508,38 +499,356 @@ main h2{
   font-family: oswald;
   margin: 10px;
   box-shadow: 0px 0px 3px 3px rgba(238, 232, 232, 0.904);
-  
 }
 .lien4 li:hover {
   background-color: #6acafc;
-
 }
-.lien3a p{
+.lien3a p {
   padding-left: 40px;
 }
-.lien3 li>a:hover{
+.lien3 li > a:hover {
   font-size: 30px;
 }
-.lien4a p{
-padding-left: 4%;
+.lien4a p {
+  padding-left: 4%;
 }
-.lien4 a{
-text-decoration: none;
-color: rgb(212, 201, 201);
-
-
+.lien4 a {
+  text-decoration: none;
+  color: rgb(212, 201, 201);
 }
-main h2{
+main h2 {
   text-align: left;
   color: black;
-
 }
-.deroul1{
+.deroul1 {
   width: 80%;
- 
+
   background-color: #8457ec;
   margin: auto;
- 
-
+}
+/* LISTES */
+/* list ul */
+.listul {
+  display: flex;
+  justify-content: left;
+  margin-left: 5px;
 }
 
+.listul li {
+  padding: 30px;
+  padding-left: 1px;
+}
+.listul i:hover {
+  color: red;
+  font-size: 22px;
+}
+/* list ol */
+.listol {
+  margin-left: 30px;
+}
+.listol > li {
+  list-style-type: decimal;
+}
+
+/* Liste imbriquée */
+.imbrique {
+  display: block;
+}
+/* ............TABLE........... */
+table {
+  margin: auto;
+  border-collapse: collapse;
+  border: rgb(89, 137, 199) solid 2px;
+  width: 90%;
+  text-align: center;
+}
+tfooter,
+th,
+tr,
+td {
+  border-collapse: collapse;
+  border: solid 2px rgb(89, 137, 199);
+  width: 20%;
+}
+th,
+tfoot {
+  background-color: #8aa8c0;
+  height: 30px;
+}
+
+.tableh1 {
+  color: black;
+  text-align: left;
+  margin-left: 15px;
+}
+.avion {
+  margin: 5px;
+}
+#logo {
+  float: left;
+  width: 25%;
+  padding: 15px;
+  text-align: center;
+}
+
+#logo {
+  float: left;
+  width: 25%;
+  padding: 15px;
+  text-align: center;
+}
+
+button {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  font-size: 350%;
+  color: #2d737f;
+}
+/* multimédia */
+.multimedia{
+  margin: auto;
+  width: 560px;
+  padding: 0%;
+  
+}
+.video{
+  padding-bottom:0;
+}
+.iframe{
+  padding-top: 0;
+}
+/* nvdvhdgdjk */
+.display{
+  width: 100%;
+  display: flex;
+ justify-content: space-around;
+ align-items: center;
+
+
+ 
+  height: 800px;
+
+ 
+}
+.c1{
+  width: 200px;
+  height: 200px;
+  background-color: #f1a708;
+  
+}
+.c2{
+  width: 200px;
+  height: 200px;
+  background-color: #3308f1;
+}
+.containerx{
+  position: relative;
+}
+.alin{
+  position: absolute;
+   width: 150px;
+  height: 150px;
+  background-color: red;
+  border-radius: 50%;
+  color: #3308f1;
+  /* top:100px */
+  /* bottom: 50px; */
+}
+.karima{
+position: absolute;
+   width: 150px;
+  height: 150px;
+  background-color: rgb(247, 0, 255);
+  border-radius: 50%;
+  
+  bottom:1px;
+  color: #3308f1;
+}
+  
+  
+
+
+
+/**************DEBUT ANIMATIONS*************/
+/*****infoBulle*****/
+.infoBulle{
+    height: 250px;
+    width: 500px;
+    margin: auto;
+    padding-top: 15px;
+    background: #444;
+    box-shadow: 10 0 50px #080808 inset/*inset permet l'effet à l'intérieur de l'élément*/
+}
+.infoBulle p{
+    text-align: center;
+    padding-top: 30px;
+}
+.infoBulle a{
+    color: #ccc;
+    text-shadow: 0 -2px 0 black;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+.infoBulle a:hover{
+    text-shadow: 0 1px 2px black;
+    background: rgba(0,0,0,.4);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+    color: #fff;
+}
+.infoBulle a span{
+    position: absolute;
+    padding: 15px;
+    margin-top: 23px;
+    margin-left: -35px;
+    background: rgba(0,0,0,.9);
+    opacity: 0;
+    color: #09c;
+    transform: scale(0) rotateZ(-12deg);
+    transition: .25s;
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgba(0,0,0,.5);
+}
+.infoBulle a:hover span{
+    opacity: 1;
+    transform: scale(1) rotateZ(0);
+}
+.infoBulle a span:before{
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 10px;
+    border-bottom: 6px solid rgba(0,0,0,.9);
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+}
+
+/*****image grayscale & blur*****/
+.imgEffets{
+    width: 320px;
+    height: 320px;
+    margin: 70px auto;
+}
+.imgEffets li{
+    list-style: none;
+    float: left;
+    width: 141px;
+    height: 150px;
+    margin: 5px;
+}
+.imgEffets li:nth-child(3){
+    clear: both;
+}
+.imgEffets img{
+    position: absolute;
+    z-index: 1;
+    height: 150px;
+    box-shadow: 0 0 3px black;
+    /* cubic-bezier commence par 0 et se termine par 1 puis entre nous mettrons nos valeurs*/
+    transition: .5s cubic-bezier(0,3,.4,1);
+}
+.imgEffets li:hover img{
+    z-index: 2;
+    /* Scale = zoom */
+    transform: scale(1.5);
+    box-shadow: 0 0 10px black;
+}
+.imgEffets:hover li:not(:hover) img{
+    filter: grayscale(1) blur(5px);
+}
+
+/******Rotation d'un menu CSS3*******/
+#menuRotate{
+    height: 360px;
+    width: 576px;
+    margin: 100px auto;
+    background: #627878;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+#menuRotate .masque{
+    position: absolute;
+    z-index: 50;
+    width: 585px;
+    height: 135px;
+    top: 0;
+    left: 0;
+    background:linear-gradient(#324040,#627878);
+}
+
+#menuRotate .ombre{
+    position: absolute;
+    z-index: 40;
+    width: 300px;
+    height: 6px;
+    box-shadow: 0px 100px 3px black;
+    border-radius: 75px 75px 75px 75px / 3px 3px 3px 3px; /*rayon horizontaux / Rayon verticaux*/
+    top: 30px;
+    left: 142px;
+}
+
+#menuRotate dl{
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -75px;
+    width: 150px;
+    height: 155px;
+    color: #324040;
+    text-align: center;
+    background: #04b3d2;
+    border-radius: 4px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.7);
+    transform-origin: 50% 120px;
+    animation: bounceOut 0.7s ease-in-out;
+}
+
+#menuRotate dt{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 23px;
+    padding-top: 5px;
+}
+
+#menuRotate dd{
+    transform: rotate(180deg);
+}
+
+#menuRotate dd a{
+    display: block;
+    height: 24px;
+    padding: 3px 0;
+    color: #324040;
+    text-decoration: none;
+}
+
+#menuRotate dd a:hover{
+    background: rgba(255,255,255,0.1);
+}
+
+#menuRotate dl:hover{
+    transform: rotate(-180deg);
+    animation: bounceIn 0.7s ease-in-out;
+}
+
+@keyframes bounceIn{
+    from{transform:rotate(0deg);}
+    75%{transform:rotate(-200deg);}
+    90%{transform:rotate(-175deg);}
+    to{transform:rotate(-180deg);}
+}
+
+@keyframes bounceOut{
+    from{transform:rotate(0deg);}
+    0%{transform:rotate(-180deg);}
+    10%{transform:rotate(-165deg);}
+    to{transform:rotate(-360deg);}
+}
+/**************FIN ANIMATIONS***************/
